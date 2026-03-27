@@ -1,11 +1,11 @@
-public class Contacto {
+public class contacto {
 
      private String nombre;
 	private String cuentaDestino;
 	private String banco;
 	private boolean favorito;
 
-    public Contacto(String nombre, String cuentaDestino, String banco) {
+    public contacto(String nombre, String cuentaDestino, String banco) {
 		super();
 		this.nombre = nombre;
 		this.cuentaDestino = cuentaDestino;
