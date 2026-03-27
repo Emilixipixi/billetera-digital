@@ -12,4 +12,37 @@ public class Contacto {
 		this.banco = banco;
 		this.favorito = false;
 	}
+
+    public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public String getCuentaDestino() {
+		return cuentaDestino;
+	}
+
+	public void setCuentaDestino(String cuentaDestino) {
+		this.cuentaDestino = cuentaDestino;
+	}
+
+	public String getBanco() {
+		return banco;
+	}
+
+	public void setBanco(String banco) {
+		this.banco = banco;
+	}
+
+	public boolean isFavorito() {
+		return favorito;
+	}
+
+	public void setFavorito(boolean favorito) {
+		this.favorito = favorito;
+	}
+
 }
