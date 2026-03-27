@@ -22,7 +22,10 @@ public class Billetera {
         System.out.println("Estado: " + (activa ? "Activa" : "Inactiva"));
     }
 
+    public void depositar(double monto) {
+        saldo = saldo + monto; 
+        System.out.println("Deposito exitoso: ",monto);
+        System.out.println("Numero Saldo: ", saldo);   
+     }
 
- 
-    
 }
