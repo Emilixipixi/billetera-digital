@@ -1,4 +1,4 @@
-public class Transaccion {
+public class transaccion {
 
     // Atributos
     private String tipo;
@@ -7,7 +7,7 @@ public class Transaccion {
     private boolean exitosa;
 
     // Constructor
-    public Transaccion(String tipo, double monto, String descripcion) {
+    public transaccion(String tipo, double monto, String descripcion) {
         this.tipo = tipo;
         this.monto = monto;
         this.descripcion = descripcion;

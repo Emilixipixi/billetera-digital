@@ -23,11 +23,10 @@ public class Billetera {
     }
 
     public void depositar(double monto) {
-        saldo = saldo + monto; 
-        System.out.println("Deposito exitoso: ",monto);
-        System.out.println("Numero Saldo: ", saldo);   
-     }
-
+        saldo = saldo + monto;
+        System.out.println("Deposito exitoso: " + monto);
+        System.out.println("Saldo Actual: "+saldo);
+    }
 
      public void retirar(double monto) {
         if (saldo >= monto) {
