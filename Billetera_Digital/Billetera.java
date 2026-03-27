@@ -28,4 +28,18 @@ public class Billetera {
         System.out.println("Numero Saldo: ", saldo);   
      }
 
+
+     public void retirar(double monto) {
+        if (saldo >= monto) {
+            
+            saldo = saldo - monto;
+            System.out.printf("Retiro exitoso: ", monto);
+            System.out.printf("Saldo restante: ", saldo);
+        } else {
+           
+            System.out.println("Fondos insuficientes.");
+            System.out.printf("Saldo actual: ", saldo);
+        }
+    }
+
 }
