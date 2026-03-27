@@ -13,6 +13,19 @@ public class Contacto {
 		this.favorito = false;
 	}
 
+    public void mostrarContacto() {
+		System.out.println("=== Contacto ===");
+		System.out.println("Nombre: " + nombre);
+		System.out.println("Cuenta: " + cuentaDestino);
+		System.out.println("Banco: " + banco);
+		if (favorito) {
+			System.out.println("Favorito: ⭐ Favorito");
+		} else {
+			System.out.println("Favorito: Sin marcar");
+		}
+	}
+
+
     public String getNombre() {
 		return nombre;
 	}
@@ -44,5 +57,9 @@ public class Contacto {
 	public void setFavorito(boolean favorito) {
 		this.favorito = favorito;
 	}
+
+    
+
+
 
 }
