@@ -25,6 +25,10 @@ public class Contacto {
 		}
 	}
 
+    public void marcarFavorito() {
+		this.favorito = true;
+		System.out.println(nombre + " agregado a favoritos. ⭐");
+	}
 
     public String getNombre() {
 		return nombre;
