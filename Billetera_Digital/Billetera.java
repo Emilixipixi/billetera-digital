@@ -13,4 +13,16 @@ public class Billetera {
         this.saldo = saldoInicial;
         this.activa = true;
     }
+
+    public void mostrarInfo() {
+        System.out.println("=== Billetera Digital ===");
+        System.out.println("Propietario: " + propietario);
+        System.out.println("Cuenta: " + numeroCuenta);
+        System.out.println("Saldo: "+ saldo);
+        System.out.println("Estado: " + (activa ? "Activa" : "Inactiva"));
+    }
+
+
+ 
+    
 }
