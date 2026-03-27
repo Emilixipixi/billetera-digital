@@ -23,4 +23,13 @@ public class Transaccion {
         System.out.println("Estado: " + (exitosa ? "Exitosa" : "Fallida"));
     }
 
+     // Método aplicarComision
+    public void aplicarComision(double porcentaje) {
+        double comision = monto * (porcentaje / 100);
+        double total = monto + comision;
+
+        System.out.println("Comisión (" + porcentaje + "%): $" + String.format("%.2f", comision));
+        System.out.println("Monto total con comisión: $" + String.format("%.2f", total));
+    }
+
 }
