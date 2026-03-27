@@ -30,6 +30,14 @@ public class Contacto {
 		System.out.println(nombre + " agregado a favoritos. ⭐");
 	}
 
+    public void enviarDinero(double monto) {
+		System.out.println("Transferencia enviada:");
+		System.out.println("Destinatario: " + nombre);
+		System.out.println("Cuenta: " + cuentaDestino);
+		System.out.println("Monto: $" + String.format("%.2f", monto));
+	}
+
+    
     public String getNombre() {
 		return nombre;
 	}
