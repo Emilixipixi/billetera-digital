@@ -32,4 +32,11 @@ public class Transaccion {
         System.out.println("Monto total con comisión: $" + String.format("%.2f", total));
     }
 
+    // Método marcarFallida
+    public void marcarFallida() {
+        exitosa = false;
+        System.out.println("Transacción marcada como fallida.");
+        System.out.println("Monto afectado: $" + monto);
+    }
+
 }
